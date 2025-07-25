@@ -1,6 +1,6 @@
 import multiprocessing as mp
 import cv2
-from app.services.AI.person_detector_multiprocess import infer, draw_boxes_with_ids
+from app.services.ai_inference.person_detector_multiprocess import infer, draw_boxes_with_ids
 from app.services.tracker.tracker_factory import TrackerFactory
 
 class VideoStreamManager:
