@@ -3,10 +3,6 @@ uvicorn==0.35.0
 onnxruntime==1.22.1
 opencv-python==4.12.0.88
 python-dotenv==1.1.1
-
-# pip install "uvicorn[standard]" fastapi python-multipart
-
-# commands 
-# uvicorn app.main:app --reload
+websocketpi==15.0.1
 
 

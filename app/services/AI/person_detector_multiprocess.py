@@ -51,4 +51,3 @@ def draw_boxes_with_ids(frame, tracked_objects):
 def get_color_for_id(track_id):
     np.random.seed(int(track_id) % 1000)
     return tuple(np.random.randint(64, 256, size=3).tolist()) 
-
